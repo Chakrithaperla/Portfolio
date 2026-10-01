@@ -51,7 +51,7 @@ export const portfolioData = {
     },
     {
       name: "Frontend",
-      skills: ["HTML", "CSS", "React", "React Router", "Recharts"]
+      skills: ["HTML", "CSS", "React", "React Router"]
     },
     {
       name: "Backend",

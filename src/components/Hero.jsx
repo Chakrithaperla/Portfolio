@@ -88,15 +88,16 @@ export default function Hero({ onOpenResume }) {
               </a>
 
               {/* Button 2: Download Resume with Animated Border */}
-              <button
-                onClick={onOpenResume}
+              <a
+                href="/Perla_Chakritha_Resume.pdf"
+                download="Perla_Chakritha_Resume.pdf"
                 className="group animated-gradient-border p-[1.5px] rounded-xl hover:scale-[1.03] transition-transform duration-300 w-full sm:w-auto"
               >
                 <div className="flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-background-cardSolid text-slate-text font-medium text-sm group-hover:bg-background-card group-hover:text-white transition-colors duration-300 backdrop-blur-md">
                   <FileText className="w-4 h-4 text-purple-400 group-hover:text-neon-lime transition-colors" />
                   <span>Download Resume</span>
                 </div>
-              </button>
+              </a>
             </motion.div>
 
             {/* 5. Social Icons Appear Afterward */}

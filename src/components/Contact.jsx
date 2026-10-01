@@ -372,8 +372,9 @@ export default function Contact({ onOpenResume }) {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-col items-center justify-center pt-4"
         >
-          <button
-            onClick={onOpenResume}
+          <a
+            href="/Perla_Chakritha_Resume.pdf"
+            download="Perla_Chakritha_Resume.pdf"
             className="group animated-gradient-border p-[1.5px] rounded-2xl hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(124,58,237,0.3)] hover:shadow-[0_0_45px_rgba(217,255,114,0.5)]"
           >
             <div className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-background-cardSolid text-slate-text font-semibold text-sm sm:text-base group-hover:bg-background-card group-hover:text-white transition-colors duration-300 backdrop-blur-md font-display tracking-wider uppercase">
@@ -381,7 +382,7 @@ export default function Contact({ onOpenResume }) {
               <span>DOWNLOAD RESUME</span>
               <ArrowRight className="w-4 h-4 text-neon-lime group-hover:translate-x-1.5 transition-transform duration-300" />
             </div>
-          </button>
+          </a>
           <p className="text-xs font-mono text-slate-subtle mt-3">
             View full curriculum vitae in interactive modal / PDF print
           </p>
